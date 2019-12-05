@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "944334205438",
+    "firebase_url": "https://calling-card-36ae8.firebaseio.com",
+    "project_id": "calling-card-36ae8",
+    "storage_bucket": "calling-card-36ae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944334205438:android:c2d737be3b2e5799d010af",
+        "android_client_info": {
+          "package_name": "com.sullenart.callingcard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944334205438-3gmrtcmbbq2ta3b80qs81fjjdtn945im.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjlYCIaWC08POYoPpJS50O8fOrUFCHXv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944334205438-3gmrtcmbbq2ta3b80qs81fjjdtn945im.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

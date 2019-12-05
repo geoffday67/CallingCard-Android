@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ProfileCard">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="cardBackgroundColor">@color/colorPrimaryLight</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="ProfileTitle">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline5</item>
+        <item name="android:textColor">@color/profileTitle</item>
+    </style>
+
+    <style name="ProfileSubtitle">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body1</item>
+        <item name="android:textColor">@color/profileSubtitle</item>
+    </style>
+
+    <style name="ProfileContent">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Body2</item>
+        <item name="android:textColor">@color/profileContent</item>
+    </style>
+
+    <style name="Result">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Headline5</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Device">
+        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+</resources>

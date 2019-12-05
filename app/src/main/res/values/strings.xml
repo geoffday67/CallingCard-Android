@@ -1,0 +1,43 @@
+<resources>
+    <string name="home_title">Calling Card</string>
+    <string name="home_name">Geoff Day</string>
+    <string name="home_email">geoffday67@gmail.com</string>
+    <string name="home_introduction">
+        Hello, have a look through my profile below, and slide from the left to see the other sections of this app.
+        Please click the icons above to contact me, or to view the source code for this app.
+    </string>
+
+    <string name="heroku_title">Heroku</string>
+    <string name="heroku_text">
+        Enter some text above then click the button to send the text to a node.js application running on Heroku to reverse it.
+        There may be a delay while the Heroku instance starts up.
+        Click below to see the source code on Github.
+    </string>
+    <string name="reverse_prompt">String to reverse</string>
+    <string name="reverse">Reverse</string>
+
+    <string name="lambda_title">AWS Lambda</string>
+    <string name="lambda_text">
+        Enter some text above then click the button to send the text to an AWS Lambda function to capitalise it, and to see which device AWS thinks you are using.
+        Click below to see the source code.
+    </string>
+    <string name="capitalise_prompt">String to capitalise</string>
+    <string name="capitalise">Capitalise</string>
+
+    <string name="source">Source</string>
+    <string name="close">Close</string>
+
+    <string name="jni_title">C++ JNI</string>
+    <string name="jni_text">
+        The area above shows OpenGL graphics embedded into an Android layout. The graphics code is written in C++ and is called using JNI.
+    </string>
+
+    <string name="menu_heroku">Heroku</string>
+    <string name="menu_lambda">AWS Lambda</string>
+    <string name="menu_jni">C++ JNI</string>
+    <string name="menu_heading">Demonstrations</string>
+
+    <string name="action_source_title">View source on Github</string>
+    <string name="action_email_title">Email</string>
+    <string name="action_phone_title">Phone</string>
+</resources>

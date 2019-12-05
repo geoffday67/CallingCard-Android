@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/mainGraph"
+    app:startDestination="@id/home_fragment"
+    >
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:label="@string/home_title"
+        android:name="com.sullenart.callingcard.home.HomeFragment"
+        />
+
+    <fragment
+        android:id="@+id/heroku_fragment"
+        android:label="@string/heroku_title"
+        android:name="com.sullenart.callingcard.heroku.HerokuFragment"
+        />
+
+    <fragment
+        android:id="@+id/lambda_fragment"
+        android:label="@string/lambda_title"
+        android:name="com.sullenart.callingcard.lambda.LambdaFragment"
+        />
+
+    <fragment
+        android:id="@+id/jni_fragment"
+        android:label="@string/jni_title"
+        android:name="com.sullenart.callingcard.jni.JniFragment"
+        />
+
+</navigation>
