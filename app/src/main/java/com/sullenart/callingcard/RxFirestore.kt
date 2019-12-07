@@ -12,7 +12,7 @@ open class FirestoreBaseModel(
 inline fun <reified T : FirestoreBaseModel> DocumentSnapshot.toIdObject(): T =
     this.toObject<T>()?.also { it.id = this.id } ?: T::class.java.newInstance()
 
-inline fun <reified T : FirestoreBaseModel> CollectionReference.fetch(order: String? = null): Observable<T> =
+inline fun <reified T : FirestoreBaseModel> CollectionReference.fetch(): Observable<T> =
     Observable.create { emitter ->
         this.get()
             .addOnSuccessListener { snap ->
